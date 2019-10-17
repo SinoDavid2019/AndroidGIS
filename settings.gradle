@@ -1,0 +1,2 @@
+include ':app', ':gistools', ':arcgistools'
+rootProject.name='GISMapApp'

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--
+App配置文件
+-->
+<configuration>
+    <!--Runtime 许可-->
+	<runtimekey license="ArcGIS Runtime许可信息"/>
+
+    <!--系统工作空间目录-->
+    <workspace path="/RuntimeViewer"/>
+
+    <!--widget组件列表-->
+    <widgetcontainer>
+        <widget label="图层管理" classname="com.vito.gismapapp.Widgets.LayerManagerWidget.LayerManagerWidget"
+	             icon="widget_layermanager.png" select_icon="widget_layermanager_select2.png"/>
+        <widget label="测试1" icon="widget_layermanager.png" select_icon="widget_layermanager_select2.png" classname="com.vito.gismapapp.Widgets.HelloWorldWidget" />
+        <widget label="测试2" icon="widget_layermanager.png" select_icon="widget_layermanager_select2.png" classname="com.vito.gismapapp.Widgets.HelloWorldWidget" />
+    </widgetcontainer>
+</configuration>
