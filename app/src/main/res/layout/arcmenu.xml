@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vito.gismapapp.ArcMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hyman="http://schemas.android.com/apk/res/com.vito.gismapapp"
+    android:id="@+id/arcmenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    hyman:position="right_top"
+    hyman:radius="200dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/earth">
+        <ImageView
+            android:id="@+id/id_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/earth2"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_camera"
+        android:tag="Camera"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_music"
+        android:tag="Music"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_place"
+        android:tag="Place"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_sleep"
+        android:tag="Sleep"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_thought"
+        android:tag="Thought"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_with"
+        android:tag="With"/>
+
+</com.vito.gismapapp.ArcMenu>
